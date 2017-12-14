@@ -4,7 +4,6 @@ $(document).ready(function(){
 *vista splash
 */
  $('.spcont').delay(2000).fadeOut("slow");
-
 /**
 *ocultar contenedor de la 1ra vista y mostrar la 2nda al
 *apretar el botón sign up
@@ -49,7 +48,6 @@ $(function(){
     e.preventDefault();
   });
 });
-
 /**
 *función que genera un número de 3 dígitos al azar y envía a la tercera vista de
 *la app al aceptar el alert, además habilita el boton next de la vista 3
