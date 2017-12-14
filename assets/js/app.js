@@ -36,6 +36,12 @@ $(".backico").click(function(){
   }).trigger('keyup');
 /**
 *función para validar número de teléfono, solo permite números, no deja copy pastear
+*mientras que el valor ingresado no sea un número,lo separa, lo da vuelta y lo cambia
+*por " " (o sea lo borra), esto da el efecto de que al no escribir numeros van desapareciendo
+*las letras.
+*Para validar que solo se ingresan números, use la expresión regular (regExp),
+*D es equivalente a [^0-9], esto signifíca que corresponde a cualquier carácter que no
+* sea un número, el modificador al final del regExp i, busca coincidencias no case sensitive
 */
 $(function(){
   $('.phonee').keyup(function(e) {
