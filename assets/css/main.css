@@ -4,11 +4,11 @@
   font-family: Roboto;
 }
 .spcont{
-background: #5b0572; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #5b0572 0%, #ad1283 64%, #de47ac 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #5b0572 0%,#ad1283 64%,#de47ac 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, #5b0572 0%,#ad1283 64%,#de47ac 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b0572', endColorstr='#de47ac',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background: #5b0572; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #5b0572 0%, #ad1283 64%, #de47ac 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #5b0572 0%,#ad1283 64%,#de47ac 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #5b0572 0%,#ad1283 64%,#de47ac 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b0572', endColorstr='#de47ac',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   position: fixed;
   top: 0;
   left: 0;
@@ -39,8 +39,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b0572', end
 }
 .login,.signup {
   background-color : #31b0d500;
+  background-color: transparent;
   color: white;
-padding: 4vh 7.5vh;
+  padding: 4vh 7.5vh;
   border-radius: 4px;
   border-color: #fff;
   margin-bottom: 2%;
@@ -155,7 +156,7 @@ margin-top: 5%;
   left: -7px;
   margin-left: 2%;
   margin-bottom: 1%;
-  padding: 9%;
+  padding: 8vh;
   }
 .back3{
   padding-left: 0;
