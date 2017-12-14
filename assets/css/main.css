@@ -35,11 +35,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b0572', end
 
 .lg{
   height: 5rem;
+  margin: 0 auto;
 }
 
 .pinklg{
     height: 50vh;
-   padding-left: 2vh;
+   margin: 0 auto;;
 }
 .login,.signup {
   background-color : #31b0d500;
@@ -65,5 +66,61 @@ padding: 4vh 7.5vh;
 }
 
 .backico{
+  font-size: 3.5rem;
+  cursor:pointer;
+}
+
+
+#sutxt{
+  text-align: center;
+}
+
+.backb{
+  margin-left: 0;
+  margin-top: 2%;
+}
+
+.signtxt{
+  text-align: center;
   font-size: 4rem;
+  padding-top: 1%;
+}
+
+.ridec{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.phonein{
+  padding-left: 2%;
+  padding-right: 0;
+}
+
+
+.inpc{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.txtsend{
+font-size: 1.8rem;
+padding-top:2%;
+text-align: center;
+margin-top: 5%;
+}
+
+.btn-block{
+  margin-top: 10%;
+  background-color: #FF00BF;
+  color:#fff;
+}
+
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+    background-color: gray;
+    color:#fff;
+}
+
+.btn:hover {
+    color: #fff;
+    text-decoration: none;
 }
