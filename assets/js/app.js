@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  $(".view5").hide();
 /**
 *vista splash
 */
